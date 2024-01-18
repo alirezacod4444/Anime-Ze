@@ -45,7 +45,7 @@ from bot.plugins.status_message_fn import (
 
 from bot.commands import Command
 
-sudo_users = "1666551439" 
+sudo_users = "452118981" 
 crf.append("28")
 codec.append("libx264")
 resolution.append("854x480")
@@ -206,7 +206,7 @@ if __name__ == "__main__" :
     @app.on_message(filters.incoming & filters.command(["compress", f"compress@{BOT_USERNAME}"]))
     async def help_message(app, message):
         if message.chat.id not in AUTH_USERS:
-            return await message.reply_text("You are not authorised to use this bot contact @TheBatmanShan")
+            return await message.reply_text("You are not authorised to use this bot contact @TheBatman")
         query = await message.reply_text("ᴀᴅᴅᴇᴅ ᴛᴏ ǫᴜᴇᴜᴇ...\nᴘʟᴇᴀsᴇ ʙᴇ ᴘᴀᴛɪᴇɴᴛ ʏᴏᴜ ᴇɴᴄᴏᴅᴇ ᴡɪʟʟ sᴛᴀʀᴛ sᴏᴏɴ", quote=True)
         data.append(message.reply_to_message)
         if len(data) == 1:
